@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mary's Gallery</title>
+  <link rel="stylesheet" href="assets/main.css">
+  <link rel="stylesheet" href="assets/responsive-grid.css">
+  <script defer src="assets/main.js" defer></script>
+</head>
+
+<body>
+  <header id="topo" class="title">
+    <h1>Imagines Sirenae - Mary's Gallery</h1>
+  </header>
+  <aside>
+    <div>
+      <div class="TopoDaGaleria">
+      <a href="#topo" class="nomes">Top of Gallery</a>
+      </div>
+      <div class="MaryPhotos">
+      <a href="#Mary1" class="nomes">Mary's Photos</a>
+      </div>
+      <div class="MeAndYou">
+      <a href="#Mary2" class="nomes">Me and You</a>
+      </div>
+      <div class="ThingsYouLove">
+      <a href="#Mary3" class="nomes">Things you love</a>
+      </div>
+      <div class="Drawings">
+      <a href="#Mary4" class="nomes">Drawings</a>
+      </div>
+      <div class="Chat">
+      <a href="assets/chat.html" class="nomes">Chat</a>
+      </div>    
+    </div>
+  </aside>
+  <main>
+    <h2 id="Mary1">Mary's photos</h2>
+    <div class="galeria" data-folder="mary1" data-total="10"></div>
+
+    <h2 id="Mary2">Me and you in other universes</h2>
+    <div class="galeria" data-folder="universos" data-total="10"></div>
+
+    <h2 id="Mary3">Things you love</h2>
+    <div class="galeria" data-folder="favoritas" data-total="10"></div>
+
+    <h2 id="Mary4">Your drawings</h2>
+    <div class="galeria" data-folder="desenhos" data-total="10"></div>
+  </main>
+  <footer>
+    <div class="rodape">
+      <p>© Feito para minha amada.</p>
+    </div>
+  </footer>
+
+  <dialog class="galeria-image-modal">
+    <button class="bt-close"></button>
+    <div class="content"></div>
+    <button class="bt-prev"><<</button>
+    <button class="bt-next">>></button>
+  </dialog>
+</body>
+
+</html>
